@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MovieDB</string>
+
+
+
+    <!-- FRAGMENT PAGER ITEM ADAPTER -->
+    <string name="page_nowplaying">Now Playing</string>
+    <string name="page_upcoming">Upcoming movies</string>
+
+    <!-- NOTIFICATIONS -->
+    <string name="loading">Loading..</string>
+    <string name="offline_text">No connection!</string>
+    <string name="retry_button">Try Again</string>
+
+
+    <!-- MOVIE LIST -->
+    <string name="row_popularity">Popularity: %1$s</string>
+    <string name="row_released">Released: %1$s</string>
+    <string name="row_rating">Rating: %1$s</string>
+
+    <string name="row_genre">Genres: %1$s</string>
+    <string name="row_running_time">Running time: %1$s</string>
+    <string name="row_vote_count">Vote count: %1$s</string>
+
+    <!-- MOVIE DETAILS -->
+    <string name="movie_credits">Buy Tickets</string>
+    <string name="only_wifi" translatable="false">only_wifi</string>
+    <string name="only_wifi_title">Only use Wifi</string>
+    <!-- TOASTS -->
+    <string name="no_connection">No Internet Connection</string>
+    <string name="no_longer_following">You are no longer following this movie</string>
+
+
+
+</resources>

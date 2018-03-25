@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <!-- LIST MOVIE LAYOUT -->
+    <dimen name="movie_list_title">18sp</dimen>
+    <dimen name="movie_list_gene">12sp</dimen>
+    <dimen name="movie_list_popularity">12sp</dimen>
+    <dimen name="movie_list_year">10sp</dimen>
+
+    <!-- MOVIE LAYOUT -->
+    <dimen name="movie_title">18sp</dimen>
+    <dimen name="movie_runtime">15sp</dimen>
+    <dimen name="movie_release_date">15sp</dimen>
+    <dimen name="movie_rating">15sp</dimen>
+    <dimen name="movie_genre">15sp</dimen>
+    <dimen name="movie_overview">15dp</dimen>
+</resources>
