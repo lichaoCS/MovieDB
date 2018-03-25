@@ -9,12 +9,13 @@ import retrofit.http.GET;
 import retrofit.http.Path;
 import retrofit.http.Query;
 /**
+ * ITMDb Service API
  * Created by licha on 3/24/2018.
  */
 
 public interface ITMDbServiceAPI {
 
-    String API_KEY = "22d1bf5d6bf521450f9004dcc55ae9d3";
+    String API_KEY = "9bc5152abdd7949bf9145ee2751363a5";
     String BASE_URL = "http://api.themoviedb.org";
     String BASE_IMAGES_URL = "http://image.tmdb.org/t/p/";
     String POSTER_SIZE = "w185";
@@ -69,7 +70,7 @@ public interface ITMDbServiceAPI {
      * @param language
      * @return
      */
-    @GET("/3/genre/movie/list")
+    @GET("/genre/movie/list")
     Call<GenreListingDTO> getGenres(@Query("api_key") String API_KEY,
                                     @Query("language") String language);
 
