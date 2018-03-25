@@ -41,25 +41,6 @@ public class NowPlayingListPresenter extends ListablePresenter<List<Movie>> {
         new LoadDataTask().execute();
     }
 
-    /**
-     * Load movie list in a worker thread using an AsyncTask from Content Provider
-     */
-    private class LoadDataFromDatabaseTask extends AsyncTask<Void, Void, List<Movie>> {
-
-
-        @Override
-        protected List<Movie> doInBackground(Void... voids) {
-            Log.d(TAG, "doInBackground: Getting movies from content provider");
-            // TODO
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(List<Movie> list) {
-            super.onPostExecute(list);
-            view.setData(list);
-        }
-    }
 
     /**
      * Load movie list in a worker thread using an AsyncTask from Web
@@ -73,7 +54,6 @@ public class NowPlayingListPresenter extends ListablePresenter<List<Movie>> {
             Log.d(TAG, "doInBackground: Getting movies from content provider");
             ICloudMovieRepository repo = null;
             try {
-                //Thread.sleep(1000);
                 repo = MovieRepositoryFactory.getCloudRepository(view.getViewContext());
                 return repo.getNowPlayingMovies(1);
             } catch (NetworkConnectionException e) {

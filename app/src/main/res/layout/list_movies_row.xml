@@ -32,7 +32,7 @@
             android:textSize="@dimen/movie_list_title"
             android:textStyle="bold"
             android:fontFamily="sans-serif-condensed"
-            tools:text="A Viagem de Arlo"
+            tools:text="Movie Name"
             android:layout_toRightOf="@+id/thumbnail"/>
 
         <!-- Movie Genres -->
@@ -41,10 +41,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/movie_list_gene"
-            tools:text="A Viagem de Arlo"
-            android:background="@color/colorGenres"
+            tools:text="Movie genres"
             android:padding="3dp"
-            android:textColor="@color/tabTextActive"
+            android:textColor="@color/genre"
             android:fontFamily="sans-serif-condensed"
             android:layout_below="@+id/movie_title_details"
             android:layout_toRightOf="@+id/thumbnail" />
@@ -55,7 +54,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/movie_list_popularity"
-            tools:text="Pontuação: 6.08"
+            tools:text="popularity: 6.08"
             android:fontFamily="sans-serif-condensed"
             android:layout_below="@+id/genres"
             android:layout_alignLeft="@+id/genres"
@@ -74,7 +73,7 @@
             android:fontFamily="sans-serif-condensed"
             tools:text="2015-11-01"
             android:layout_alignParentEnd="false"
-            android:layout_alignParentBottom="true"
+            android:layout_alignParentBottom="false"
             android:layout_alignParentRight="false"
             android:layout_alignParentTop="false"
             android:layout_alignParentLeft="false"

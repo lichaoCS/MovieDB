@@ -15,6 +15,7 @@ import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayoutD
 import com.samsung.interview.moviedb.demo.R;
 
 import com.samsung.interview.moviedb.demo.model.Movie;
+import com.samsung.interview.moviedb.demo.ui.activity.MovieActivity;
 import com.samsung.interview.moviedb.demo.ui.adapter.MovieRecyclerAdapter;
 import com.samsung.interview.moviedb.demo.ui.presenter.base.ListablePresenter;
 
@@ -102,7 +103,8 @@ public abstract class MovieListableFragment extends LoadDataFragment<List<Movie>
         adapter.setListener(new MovieRecyclerAdapter.IClickListener() {
             @Override
             public void onItemClick(Movie movie) {
-                // TODO
+                Intent i = MovieActivity.createIntent(getActivity(), movie.getId());
+                getActivity().startActivity(i);
             }
         });
 
@@ -124,11 +126,7 @@ public abstract class MovieListableFragment extends LoadDataFragment<List<Movie>
         this.data = data;
         this.adapter.setData(data);
 
-
-
     }
-
-
 
     @Override
     protected int getLayout() {

@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
-                tools:src="@drawable/cover"/>
+                tools:src="@drawable/placeholder2"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -137,20 +137,6 @@
 
         </LinearLayout>
 
-        <!--        <ToggleButton
-                    android:focusable="false"
-                    android:id="@+id/follow_button"
-                    android:layout_below="@+id/movie_similar_holder"
-                    android:layout_centerHorizontal="true"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_width="wrap_content"
-                    android:textOff="@string/follow"
-                    android:textOn="@string/following"
-                    android:visibility="gone"
-                    tools:visibility="visible"
-                    android:layout_gravity="center_horizontal"/>-->
-
         <TextView
             android:id="@+id/movie_overview"
             android:layout_height="wrap_content"
@@ -162,18 +148,6 @@
             android:fontFamily="sans-serif-condensed"
             android:paddingRight="15dp"/>
 
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/movie_credits"
-            android:id="@+id/credits_button"
-            android:textColor="@color/tabTextActive"
-            android:background="@color/colorPrimary"
-            android:fontFamily="sans-serif-condensed"
-            android:layout_marginLeft="13dp"
-            android:layout_marginRight="13dp"
-            android:layout_gravity="center_horizontal"/>
 
     </LinearLayout>
 

@@ -14,7 +14,13 @@
         android:id="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorPrimaryDark"
+        app:stl_customTabTextLayoutId="@layout/main_tab_title"
+        app:stl_indicatorColor="@color/indicatorColor"
+        app:stl_indicatorInterpolation="linear"
+        app:stl_indicatorThickness="3dp"
+        app:stl_underlineThickness="1dp"
+        app:stl_distributeEvenly="true"
         />
 
 

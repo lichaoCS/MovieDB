@@ -40,23 +40,6 @@ public class UpcomingMoviesListPresenter extends ListablePresenter<List<Movie>> 
         new LoadDataTask().execute();
     }
 
-    /**
-     * Load movie list in a worker thread using an AsyncTask
-     */
-    private class LoadDataFromDatabaseTask extends AsyncTask<Void, Void, List<Movie>> {
-        @Override
-        protected List<Movie> doInBackground(Void... params) {
-           // TODO
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(List<Movie> list) {
-            super.onPostExecute(list);
-
-            view.setData(list);
-        }
-    }
 
     /**
      * Load movie list in a worker thread using an AsyncTask from Web
