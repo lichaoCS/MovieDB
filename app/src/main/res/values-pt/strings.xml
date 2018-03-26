@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name" translatable="false">MovieDB Demo</string>
+    <string name="author_name">By Lichao Chen</string>
+    <!-- FRAGMENT PAGER ITEM ADAPTER -->
+    <string name="page_nowplaying">Agora jogando</string>
+    <string name="page_upcoming">Próximos filmes</string>
+
+    <!-- NOTIFICATIONS -->
+    <string name="loading">Carregando..</string>
+    <string name="offline_text">Sem conexão!</string>
+    <string name="retry_button">Tente novamente</string>
+
+
+    <!-- MOVIE LIST -->
+    <string name="row_popularity">Popularidade: %1$s</string>
+    <string name="row_released">Liberado: %1$s</string>
+    <string name="row_rating">Avaliação: %1$s</string>
+
+    <string name="row_genre">Gêneros: %1$s</string>
+    <string name="row_running_time">Duração: %1$s</string>
+    <string name="row_vote_count">Contagem de votos: %1$s</string>
+
+    <!-- MOVIE DETAILS -->
+    <string name="movie_credits">Comprar bilhetes</string>
+    <string name="only_wifi" translatable="false">only_wifi</string>
+    <string name="only_wifi_title" translatable="false">Only use Wifi</string>
+    <!-- TOASTS -->
+    <string name="no_connection">Nenhuma conexão com a Internet</string>
+
+</resources>

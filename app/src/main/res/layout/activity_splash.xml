@@ -36,7 +36,7 @@
         android:fontFamily="sans-serif-condensed"
         android:text="@string/author_name"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="@color/tabTextActive"
+        android:textColor="@color/authorText"
         android:textSize="15dp" />
 
     <TextView
@@ -49,7 +49,7 @@
         android:fontFamily="sans-serif-condensed"
         android:text="0.0.1"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="@color/tabTextActive"
+        android:textColor="@color/versionText"
         android:textSize="15dp" />
 
 </RelativeLayout>

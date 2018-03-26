@@ -8,7 +8,7 @@
     android:gravity="center"
     android:paddingLeft="14dp"
     android:paddingRight="14dp"
-    android:textColor="@color/colorPrimary"
+    android:textColor="@color/custom_tab"
     android:textSize="15sp"
     android:textAllCaps="true"
     android:textStyle="bold"

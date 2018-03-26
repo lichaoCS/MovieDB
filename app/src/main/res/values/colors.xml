@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="versionText">#ffffff</color>
+    <color name="authorText">#ffffff</color>
     <!-- Tabs-->
     <color name="colorPrimary">#01d277</color>
     <color name="colorPrimaryDark">#081c24</color>
     <color name="primaryBackground">#083c24</color>
-    <color name="tabTextActive">#ffffff</color>
-    <color name="tabTextInactive">#a7404040</color>
-    <color name="indicatorColor">#ffffff</color>
+    <color name="tabTextActive">#01d277</color>
+    <color name="tabTextInactive">#b0b0b0</color>
+    <color name="indicatorColor">#62d277</color>
+
+
 
     <!-- List View Row-->
-    <color name="genre">#666666</color>
+    <color name="genre">#083c24</color>
     <color name="year">#888888</color>
     <color name="list_divider">#d9d9d9</color>
     <color name="list_row_start_color">#ffffff</color>
@@ -17,6 +21,7 @@
     <color name="list_row_hover_start_color">#ebeef0</color>
     <color name="list_row_hover_end_color">#ebeef0</color>
 
+    <color name="linkText">#ff5722</color>
     <!-- state -->
     <color name="stateText">#b0b0b0</color>
 </resources>

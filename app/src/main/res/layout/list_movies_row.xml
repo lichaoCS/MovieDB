@@ -42,7 +42,6 @@
             android:layout_height="wrap_content"
             android:textSize="@dimen/movie_list_gene"
             tools:text="Movie genres"
-            android:padding="3dp"
             android:textColor="@color/genre"
             android:fontFamily="sans-serif-condensed"
             android:layout_below="@+id/movie_title_details"

@@ -64,7 +64,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:fontFamily="sans-serif-condensed"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:textColor="@color/linkText"
                     android:textSize="@dimen/movie_runtime"
                     tools:text="1h20m" />
 

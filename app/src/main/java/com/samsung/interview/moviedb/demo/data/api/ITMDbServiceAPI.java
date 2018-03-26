@@ -70,7 +70,7 @@ public interface ITMDbServiceAPI {
      * @param language
      * @return
      */
-    @GET("/genre/movie/list")
+    @GET("/3/genre/movie/list")
     Call<GenreListingDTO> getGenres(@Query("api_key") String API_KEY,
                                     @Query("language") String language);
 
